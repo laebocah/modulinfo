@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SMP-IT-AL-MA'RUF</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" type="png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="icon p-2 me-2">
+                        <img class="img-fluid" src="img/icon-deal.png" alt="Icon" style="width: 30px; height: 30px;">
+                    </div>
+                    <h1 class="m-0 text-primary">TUGAS 1</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">HOME</a>
+                        <a href="home-kelas.html" class="nav-item nav-link">MATERI</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">KELAS</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="7-daftar-isi.html" class="dropdown-item">KELAS 7</a>
+                                <a href="8-daftar-isi.html " class="dropdown-item">KELAS 8</a>
+                                <a href="9-daftar-isi.html" class="dropdown-item">KELAS 9</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">LATIHAN</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href=" " class="dropdown-item">SOAL FORM</a>
+                                <a href=" " class="dropdown-item">PRAKTEK</a>
+                            </div>
+                        </div>
+                        <a href=" " class="nav-item nav-link">MEDIA</a>
+                    </div>
+                    <a href=" " class="btn btn-primary px-3 d-none d-lg-flex">PROFILE</a>
+                    
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <h1 class="display-5 animated fadeIn mb-4">TUGAS 1<span class="text-primary"></span> </h1>
+                    <p class="animated fadeIn mb-4 pb-2"> Tugas ini sangat berpengaruh di raport kalian jangan ita llan itu 
+                    </p>
+                    <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Oke</a>
+                </div>
+                <div class="col-md-6 animated fadeIn">
+                    <div class="owl-carousel header-carousel">
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNjYHTtrmxx9-zVeK87gMt6DiUZdiCNAKFSdu8imSDp74C-Pc0CeEnOTigQKZ5ojBB5UgwNpw24oWs1wPYMM0kM1nrsxLrQpAWZcow_DKmUIzM5pWjkYa9cWvIne9RSbuKBLNIn9XK6oiK8Q-KimLhMxdddJGRI2Wyo1IBt6yULFjmP7tvkac-EdeHrNU/s1000/1.png" alt="laebocah.blogspot.com">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVFU5n2TUeb2TI7dJKc7PvGBN7qaIOmzn2gPhMrycydxCaztfYtZkusuo1FuypekN2grET7IFurMFOcToTTJWB7ySwInG1Q_ls_je8eDLHF1MYEVh2Kvpq0-JTHFhQHlig0kL9xB9Y5TLTLJvF8x7tN5lOos6V3QOIWJOsWG3m4znoc2VfXnHoJcLcDc4/s1000/2%20(1).png" alt="laebocah.blogspot.com">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitIJkPRouUfxogItS9BTz6zfGvPK6QZa2rI2JhnmsJ7T08dQXLMnuR7zmkTo1WCK5Xu6T8S2kADRTqVQmYHEWoWVBZY82jHwoGTtroyfPB0mI7qshMMDrZOGAuMxf2EINwaKgWuTbrZe23OwD-i7cpXI5xF_R5rbZq1U483wbmAplA0Uvg2clBzrqcRyQ/s1000/3%20(1).png " alt="laebocah.blogspot.com">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuaTOB7HYND6Pyq-qXbx67FOfbNBEP4q3QRC8n9dRlaFsgU9BgDRk4vOEzVaaGD1MWzuX-BKOHhm23MPFqruFwMWWQ_fbZ2VzvTttSzYn7Qu2zpt02hiOZBt3OC54FEjfd6mKfj629CIb5LsS3FVcC4me5K8r3waeLIAcguArXXnJ0yHLMMgWFNLwuYMI/s1000/4%20(1).png " alt="laebocah.blogspot.com">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5Eo8gZjoie0QVno2yO5KgRFlRrIG9kcSwvy9LvxFTpwDbeC1YGudGsii1tw-wAn7QqRNUH9r-_sufiBC4yv0cQWdxUGbWkE9VbkcOe903Ve63J_SllDMvxrpj1uH8L2a5Uz0U9YA7jPF-WXAMNHmZXcOJkh-QKrfbWvANG9WYpF8fuDHH4DTOaOc98ek/s1000/4%20(2).png " alt="laebocah.blogspot.com">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- start isi materi kelas 7 -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="bg-light rounded p-3">
+                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <img class="img-fluid rounded w-100" src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihV_Ieue6QoNJ4aYg5FgvRF7I-IgQOwnbK7IzjOWUUS8AS-6VHR38w2SpIjcLc8Ykdndme6Hb_H_6s5vg8KDJbwbdXEh3pKOZqsix147D3Gryln98rWljx-pG__4W1sjU2J6rbrkn029fiyGYSsLJ0f9D_BE2Q7zDSthdI39a6Q9n5PLUTe3998Q2lwqA/s400/16.png" alt="">
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="mb-4">
+                                    <h1 class="mb-3">TUGAS 1</h1>
+                                    <p>
+
+                                        
+                                        </p>
+                                        <img class="img-fluid rounded w-100" src=" " alt="">
+                                    <h4>EMAIL</h4>  
+                                <ul>                             
+                                    <p style="font-size: 20px; padding: 0 3px;">
+
+                                        Email (singkatan dari "electronic mail" atau surat elektronik) adalah metode pengiriman pesan secara digital melalui jaringan komputer, terutama internet. Email 
+                                        memungkinkan pengguna untuk mengirim dan menerima pesan teks, gambar, dokumen, dan berbagai jenis lampiran lainnya.
+                                        </p>
+                                        
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p style="font-size: 20px; padding: 0 15px;"> 
+            BUATLAH EMAIL, KEMUDIAN KIRIMKAN PESAN PADA EMAILNYA PAK BAHA' YAITU
+        </P>
+
+    <p style="font-size: 20px; padding: 0 20px; text-align: center;">laebocah@gmail.com</p>
+    <p style="font-size: 20px; padding: 0 20px; text-align: left;">dengan menggunakan format seperti dibawah</p>
+    <p style="font-size: 20px; padding: 0 3px;">  </P>
+        <style>
+            table {
+                width: 90%;
+                border: 0px solid #0000;
+                border-collapse: collapse;
+                margin: 30px auto; /* Tabel akan terpusat secara horizontal */
+            }
+            th, td {
+                border: 1px solid #0000;
+                padding: 9px;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+        <body>
+            <table>
+                <tr>
+                    <td>NAMA </td>
+                    <td> : BAHARUDIN LUTFI</td>
+                </tr>
+                <tr>
+                    <td> KELAS </td>
+                    <td> : 15 A </td>
+
+                </tr>
+                <tr>
+                    <td> KESUKAAN</td>
+                    <td>: mengeksplorasi teknologi</td>
+                </tr>
+            </table>
+        </body>
+        <h4><p style="font-size: 20px; padding: 0 10px;">  KEMUDIAN KIRIMKAN KE ALAMAT EMAILNYA PAK BAHA' YAITU laebocah@gmail.com 
+            <p style="font-size: 20px; padding: 0 10px;"> Untuk gambarannya kalian bisa lihat dibawah ini </P>
+                <img class="img-fluid rounded w-40 mx-auto d-block" src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiphX47MdM8JReUbMoTWQY54ldCg1UdQYYNeRhuZQJWOfTCiTdl5cZOnRWZkaaYKP0CXdMeucpqiiHn28BA5Bksh0V3tcQMfY4RkiaLg-JrVDdM5zJTkD2MWRukQhQVzhHErv2HVlz780s7r0jVmCHW_UJr40Y6Lh8VhRPP27fWINxFt8nvnIW4BzRxJko/s637/0.png" alt=" ">
+                <table>
+                    <tr>
+                        <td><p style="font-size: 20px; padding: 0 25px; text-align: center;">JIKA KALIAN LUPA BAGAIMANA CARA BUAT EMAIL SILAHKAN DITONTON KEMBALI VIDEONYA</p>
+                             </td>
+                    </tr>
+                </table>
+
+                        <p style="font-size: 20px; padding: 0 20px; text-align: center;">VERSI KOMPUTER/PC</p>
+                        <div style="text-align: center;">
+                            <a href="https://drive.google.com/file/d/1Byv9efv7UADfMPkHk3Ygk3K4sUpZxJM5/view" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">TONTON VIDEO PC</a>
+                        </div>
+                        <p style="font-size: 20px; padding: 0 20px; text-align: center;">silahkan tonton video</p>
+                        <p style="font-size: 20px; padding: 0 20px; text-align: center;">VERSI HP</p>
+                        <div style="text-align: center;">
+                            <a href="https://drive.google.com/file/d/1C4OCTlw8llPjcQF8iRV4CLKyBN2llupB/view" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">TONTON VIDEO HP</a>
+                        </div>
+              <!-- and isi materi kelas 7 -->
+             
+              <!--NILAI TAMBAHAN-->
+             <!--  <table>
+                <tr>
+                    <td><p style="font-size: 20px; padding: 0 25px; text-align: center;">TEKAN TOMBOL DISKUSI 1 UNTUK MENDAPATKAN NILAI TAMBAH SESUAIKAN EMAIL YANG ADA DI PRANGKAT KALIAN MASING MASING MISAL diskusi1@gmail (untuk email biasa) dan diskusi1@smp.belajar.id (untuk email belajar) </p>
+                         </td>
+                </tr>
+            </table>
+            <div style="text-align: left;">
+                <a href=" https://classroom.google.com/c/NjkwOTI0OTA5NzQ1?cjc=irxqz43" class="btn btn-primary py-3 px-7 me-3 animated fadeIn" style="font-size: 24px;">DISKUSI1@gmail.com</a>
+            </div>
+            <div style="text-align: right;">
+                <a href=" https://classroom.google.com/c/NjkwNzM4NjMwMDQ0?cjc=nog7uxz" class="btn btn-primary py-3 px-7 me-3 animated fadeIn" style="font-size: 24px;">DISKUSI1@smp.belajar.id</a>
+            </div> -->
+<!-- FORUM DISKUSI -->
+
+
+
+<!-- FORUM DISKUSI -->
+        <!-- Call to Action Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="bg-light rounded p-3">
+                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <img class="img-fluid rounded w-100" src="img/baha.png" alt="">
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="mb-4">
+                                    <h1 class="mb-3">BAHARUDIN LUTFI</h1>
+                                    <p>Dalam kamusnya pak Baha itu adalah Mengapa memilih yang mudah jika ada yang sulit ?</p>
+                                    <p>Kemajuan sejati tidak terletak pada memilih yang mudah, tetapi dalam menghadapi tantangan yang sulit untuk tumbuh, belajar, dan mencapai kekuatan penuh hingga melewati batas maximal kita.</p>
+                                </div>
+                                <a href="" class="btn btn-primary py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Kepoin</a>
+                                <a href="" class="btn btn-dark py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Tanya langsung</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Call to Action End -->
+
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">PEMBIMBING MAHIR KOMPUTER</h1>
+                    <p>MISI : Mengembangkan sistem pendidikan yang bertumpu pada IMTAQ (Iman dan Taqwa) serta IPTEK (Ilmu Pengetahuan dan Teknologi) </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/1bu-kurnia.png" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Kurnia Aji Nuryani,S.Pd</h5>
+                                <small>Guru Bahasa Jawa</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/2pak-rozak.jpg" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Ahmad Abdul Rozak,S.Pd.I</h5>
+                                <small>Guru Agama</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/3pak-robai.jpg" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Roba`I,S.Pd</h5>
+                                <small>Guru PKN</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/4pak-baha.jpg" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Baharudin Lutfi</h5>
+                                <small>Engineering</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
+        <!-- Testimonial Start -->
+       <!--- <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Student Experience</h1>
+                    <p>Pengalaman siswa belajar mahir komputer kepada pembimbing</p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Client Name</h6>
+                                    <small>Profession</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Client Name</h6>
+                                    <small>Profession</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Client Name</h6>
+                                    <small>Profession</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Testimonial End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Get In Touch</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl.Raya Candisari No:02 Desa Candisari, Kecamatan Mranggen, Kabupaten Demak</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62 813-2654-7459</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>smpitalmaruf@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Quick Links</h5>
+                        <a class="btn btn-link text-white-50" href="">Facebook</a>
+                        <a class="btn btn-link text-white-50" href="">Instagram</a>
+                        <a class="btn btn-link text-white-50" href="">Tiktok</a>
+                        <a class="btn btn-link text-white-50" href="">Youtube</a>
+                        <a class="btn btn-link text-white-50" href="">Profile</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Photo Gallery</h5>
+                        <div class="row g-2 pt-2">
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/poto1.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/poto2.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/poto3.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/poto4.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/poto5.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/poto6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">MISI</h5>
+                        <p>Mengembangkan sistem pendidikan yang bertumpu pada IMTAQ (Iman dan Taqwa) serta IPTEK (Ilmu Pengetahuan dan Teknologi)</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">smpitalmaruf</a>, All Right Reserved. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							<a class="border-bottom" href="">smp-it-al-maruf</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Facebook</a>
+                                <a href="">Youtube</a>
+                                <a href="">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
